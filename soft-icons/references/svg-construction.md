@@ -38,6 +38,8 @@ For inline informative SVG, provide a title and a unique `aria-labelledby`. Deco
 
 ## Structural verification
 
+Run the bundled `scripts/validate_svg.py` on every delivered SVG. Its restricted static SVG subset rejects raster/image content, active content, external references, duplicate IDs, and broken local references. Expand its supported vocabulary deliberately if a legitimate vector feature needs it; do not bypass a reported error.
+
 Parse the XML, check the root/viewBox, find duplicate IDs, and resolve local fragment references. Inspect root bounds and filter regions separately. Reject external resources and active content. Parsing confirms syntax only; it cannot establish silhouette, depth, or useful detail.
 
 The example uses fixed `box-*` IDs for a standalone file. Rename them per instance if embedding the raw SVG repeatedly. Use the React reference's `useId` pattern for components.

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="parcel-title">
+<title id="parcel-title">Rounded parcel with a cream packing band</title>
+<defs>
+<linearGradient id="parcel-top" x1="39" y1="24" x2="90" y2="63" gradientUnits="userSpaceOnUse"><stop stop-color="#D1E9FF"/><stop offset=".5" stop-color="#9FCAF4"/><stop offset="1" stop-color="#719BD0"/></linearGradient>
+<linearGradient id="parcel-left" x1="25" y1="49" x2="67" y2="91" gradientUnits="userSpaceOnUse"><stop stop-color="#ACD3F6"/><stop offset=".5" stop-color="#81AFE1"/><stop offset=".85" stop-color="#5885BB"/><stop offset="1" stop-color="#466A9B"/></linearGradient>
+<linearGradient id="parcel-right" x1="68" y1="61" x2="104" y2="93" gradientUnits="userSpaceOnUse"><stop stop-color="#729FD4"/><stop offset=".6" stop-color="#4E7AB1"/><stop offset="1" stop-color="#345685"/></linearGradient>
+<linearGradient id="parcel-band" x1="55" y1="45" x2="89" y2="86" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF0D1"/><stop offset="1" stop-color="#C8AA7C"/></linearGradient>
+<filter id="parcel-shadow" x="12" y="88" width="104" height="33" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="2.8"/></filter>
+</defs>
+<g id="parcel-ground"><ellipse cx="66" cy="104" rx="35" ry="6" opacity=".17" fill="#253A59" filter="url(#parcel-shadow)"/></g>
+<g id="parcel-body">
+<path d="M24 46L65 68V104Q64 109 60 106L28 88Q24 86 24 81Z" fill="url(#parcel-left)"/>
+<path d="M64 68L104 46V81Q104 86 100 88L68 106Q64 109 64 104Z" fill="url(#parcel-right)"/>
+<path d="M27 44L60 25Q64 23 68 25L101 44Q105 47 101 50L68 69Q64 71 60 69L27 50Q23 47 27 44Z" fill="url(#parcel-top)"/>
+</g>
+<g id="parcel-details">
+<path d="M42 35L51 30L87 51L78 56Z" fill="#F8E6C3"/>
+<path d="M78 56L87 51V95L78 100Z" fill="url(#parcel-band)"/>
+<path d="M33 64L48 73Q50 74 50 77V86Q50 88 48 87L33 78Q31 77 31 74V66Q31 63 33 64Z" fill="#DEEAF3"/>
+<path d="M35 70L45 76M35 74L42 78" stroke="#7992AE" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+</svg>

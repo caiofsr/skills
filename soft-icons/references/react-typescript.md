@@ -1,6 +1,6 @@
 # React and TypeScript
 
-Use the project's React and TypeScript conventions. The following wrapper illustrates instance IDs and accessibility. Copy the geometry and definitions of the actual icon into it; the body comment is an insertion point, not a completed icon.
+Deliver a standalone `.svg` alongside the component. Render native SVG elements in React; preserve the same paths, viewBox, and effects in both outputs. Use the project's React and TypeScript conventions. The following wrapper illustrates instance IDs and accessibility. Copy the geometry and definitions of the actual icon into it; the body comment is an insertion point, not a completed icon.
 
 ```tsx
 import { useId, type SVGProps } from "react";

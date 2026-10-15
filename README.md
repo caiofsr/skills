@@ -8,7 +8,7 @@ Skills para agentes de código.
 
 | Skill | O que faz |
 | --- | --- |
-| [soft-icons](./soft-icons/SKILL.md) | Cria ícones Soft Isometric 3D em SVG ou React/TypeScript, com geometria, cores e iluminação consistentes. |
+| [soft-icons](./soft-icons/SKILL.md) | Cria ícones Soft Isometric 3D em SVG editável, com exemplos, validação e integração opcional em React/TypeScript. |
 
 ## Instalação
 
