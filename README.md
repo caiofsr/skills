@@ -1,5 +1,7 @@
 # Agent skills
 
+[![skills.sh](https://skills.sh/b/caiofsr/skills)](https://skills.sh/caiofsr/skills)
+
 Skills para agentes de código.
 
 ## Disponíveis
