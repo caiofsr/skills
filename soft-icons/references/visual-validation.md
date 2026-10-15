@@ -21,6 +21,10 @@ Inspect these properties at normal display scale:
 
 Zoom in to investigate seams and clipping, then return to intended size before deciding. Judge a set together, not only one icon at a time.
 
+## Finish gate
+
+Apply every condition in the [volume and finish acceptance gate](volume-and-finish.md#acceptance-gate) to each delivered icon. Inspect the body with its ground shadow hidden when depth is uncertain. Include one representative icon in the preview before building the rest of a new family. Fix a failed finish check in the geometry or shading, then rerender; adding a larger shadow does not repair flat construction.
+
 ## Code and integration
 
 Parse each SVG and check all local references. Open the actual output after any optimizer or conversion. For React, render multiple instances, verify the accessible name or decorative state, and use the project's existing type/build checks. Confirm custom CSS does not override fills or aspect ratio unexpectedly.

@@ -20,7 +20,7 @@ These values are material roles, not semantic status colors. Keep errors, succes
 
 Use two stops per face by default, with a third only when it improves curvature. Keep hue shifts restrained and the top lighter than the sides under the default light. A lighter screen-left face and darker screen-right face communicate the light direction.
 
-Use broad, low-contrast shading. Small white specular dots suggest glossy material. Metallic reflections, glass transparency, and heavy texture belong only to a user-requested material variation. Preserve the family's geometry and light when changing material.
+Use broad shading with enough lightness separation to reveal the intended curvature at delivery size. Low contrast is a starting point, not a reason to accept a visually flat face. Small white specular dots suggest glossy material. Metallic reflections, glass transparency, and heavy texture belong only to a user-requested material variation. Preserve the family's geometry and light when changing material.
 
 For multiple materials, assign each its own base/light/shade roles. Keep neighboring faces distinguishable at delivery size. Avoid using opacity on the whole icon to create a pale palette because overlapping shapes and backgrounds then change its appearance.
 

@@ -12,7 +12,7 @@ Produce editable vector icons with consistent projection, matte materials, and s
 
 1. Inspect the destination's icons, tokens, framework, and expected display sizes. Identify the subject and its distinguishing silhouette. Reuse an established palette and projection. When none exists, use the defaults below. Ask only when an unresolved choice materially changes the requested result.
 2. Before drawing new geometry, read [geometry](references/geometry.md). For a new visual family, also read [colors and materials](references/colors-and-materials.md) and [lighting and shadows](references/lighting-and-shadows.md). For edits, load these when changing the corresponding property.
-3. Build a silhouette first, then visible faces, material shading, and essential details. Read [SVG construction](references/svg-construction.md) before writing SVG. Adapt [the box example](assets/examples/box.svg) as a construction reference, not as a template for every subject.
+3. Read [volume and finish](references/volume-and-finish.md) before drawing or reviewing an illustrated icon. For a set, complete and inspect one representative icon before propagating its construction. Build a silhouette first, then visible faces, material shading, and essential details. Read [SVG construction](references/svg-construction.md) before writing SVG. Use [the shield example](assets/examples/shield.svg) to inspect the separation between body, bevel, and face shading. The [box example](assets/examples/box.svg) demonstrates projection only and is not a finish reference.
 4. For React output, read [React and TypeScript](references/react-typescript.md). Keep standalone SVG available when requested. Reuse the project's framework rather than introducing a dependency for an icon.
 5. Read [visual validation](references/visual-validation.md), render the actual output, inspect it at intended sizes and backgrounds, and fix observed defects. Report any unavailable check explicitly. Source inspection alone does not establish visual quality.
 
@@ -26,10 +26,12 @@ These are starting values, not overrides for an existing design system.
 | Projection | Equal world-axis scale, screen diagonals at ±30° |
 | Light | Upper left of the screen |
 | Material | Matte plastic with restrained gradients |
-| Edges | Small geometric corner radii, no black outlines |
+| Edges | Rounded silhouette and shaded bevels, with highlights limited to light-facing edges |
 | Framing | About 12 units of padding including effects |
 | Complexity | One primary object and only identifying details |
 | Palette | One accent material plus neutral or supporting materials |
+
+For this style, visual acceptance also requires the [volume and finish gate](references/volume-and-finish.md#acceptance-gate). A valid SVG or an angled silhouette alone is insufficient.
 
 The family must share projection, light direction, corner treatment, and optical scale. Keep these decisions stable across the requested set. Use a simplified companion at small sizes when detail no longer survives rendering.
 
