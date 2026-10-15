@@ -18,7 +18,7 @@ These values are material roles, not semantic status colors. Keep errors, succes
 
 ## Matte appearance
 
-Use two stops per face by default, with a third only when it improves curvature. Keep hue shifts restrained and the top lighter than the sides under the default light. A lighter screen-left face and darker screen-right face communicate the light direction.
+Choose stops from the surface cross-section. A planar face may need two; a rounded body often needs a broad light region, midtone, and darker turning region. Inspect their visible distribution rather than limiting every face to the same recipe. Keep hue shifts restrained and the top lighter than the sides under the default light. A lighter screen-left face and darker screen-right face communicate the light direction.
 
 Use broad shading with enough lightness separation to reveal the intended curvature at delivery size. Low contrast is a starting point, not a reason to accept a visually flat face. Small white specular dots suggest glossy material. Metallic reflections, glass transparency, and heavy texture belong only to a user-requested material variation. Preserve the family's geometry and light when changing material.
 

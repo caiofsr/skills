@@ -23,6 +23,8 @@ Zoom in to investigate seams and clipping, then return to intended size before d
 
 ## Finish gate
 
+For a new family or a reported flatness problem, render the unadorned main body in grayscale at 64 and 128 px. Hide the ground shadow, trim, and emblem so the study tests surface shape. Keep this study in the temporary preview, not in the delivered icon.
+
 Apply every condition in the [volume and finish acceptance gate](volume-and-finish.md#acceptance-gate) to each delivered icon. Inspect the body with its ground shadow hidden when depth is uncertain. Include one representative icon in the preview before building the rest of a new family. Fix a failed finish check in the geometry or shading, then rerender; adding a larger shadow does not repair flat construction.
 
 ## Code and integration

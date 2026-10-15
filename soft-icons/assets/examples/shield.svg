@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="shield-title">
-  <title id="shield-title">Rounded blue shield with a recessed check mark</title>
+  <title id="shield-title">Domed blue shield with a raised check mark</title>
   <defs>
     <linearGradient id="shield-rim" x1="35" y1="20" x2="94" y2="96" gradientUnits="userSpaceOnUse">
       <stop stop-color="#E0F1FF"/><stop offset="0.45" stop-color="#94BDF1"/><stop offset="1" stop-color="#3C60A4"/>
@@ -7,8 +7,8 @@
     <linearGradient id="shield-side" x1="65" y1="30" x2="89" y2="103" gradientUnits="userSpaceOnUse">
       <stop stop-color="#789BCE"/><stop offset="1" stop-color="#2D4B85"/>
     </linearGradient>
-    <radialGradient id="shield-face" cx="0.25" cy="0.2" r="0.9">
-      <stop stop-color="#C4E3FF"/><stop offset="0.5" stop-color="#88B5EF"/><stop offset="1" stop-color="#4E7BBF"/>
+    <radialGradient id="shield-face" cx="0.27" cy="0.24" r="0.78" gradientTransform="translate(0 -.04) scale(1 1.13)">
+      <stop stop-color="#D9EDFF"/><stop offset="0.30" stop-color="#B3D8FB"/><stop offset="0.61" stop-color="#79ADE3"/><stop offset="0.84" stop-color="#457DB8"/><stop offset="1" stop-color="#2B528B"/>
     </radialGradient>
     <filter id="shield-shadow" filterUnits="userSpaceOnUse" x="19" y="91" width="92" height="29">
       <feGaussianBlur stdDeviation="2.5"/>
@@ -18,7 +18,7 @@
   <g transform="matrix(.866 .5 0 1 28 5)">
     <path d="M7 12 Q20 15 34 3 Q37 1 40 3 Q52 13 62 12 L62 40 Q62 70 39 83 Q36 85 33 83 Q7 70 7 40Z" fill="url(#shield-side)"/>
     <path d="M0 9 Q16 12 30 0 Q32 -2 35 0 Q48 10 55 9 L55 37 Q55 65 31 79 Q28 81 25 79 Q0 65 0 37Z" fill="url(#shield-rim)"/>
-    <path d="M4 14 Q18 15 30 5 Q32 3 34 5 Q44 13 51 14 L51 37 Q51 62 30 74 Q28 76 26 74 Q4 61 4 37Z" fill="url(#shield-face)"/>
+    <path d="M1.5 11 Q17 13 30 2 Q32 0 34 2 Q46 12 53.5 11 L53.5 37 Q53.5 64 30 77 Q28 79 26 77 Q1.5 64 1.5 37Z" fill="url(#shield-face)"/>
     <path d="M15 39 L24 48 L40 28" fill="none" stroke="#426CA7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M15 37 L24 46 L40 26" fill="none" stroke="#E6F3FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
