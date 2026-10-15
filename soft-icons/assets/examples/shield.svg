@@ -1,25 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="shield-title">
-  <title id="shield-title">Domed blue shield with a raised check mark</title>
-  <defs>
-    <linearGradient id="shield-rim" x1="35" y1="20" x2="94" y2="96" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#E0F1FF"/><stop offset="0.45" stop-color="#94BDF1"/><stop offset="1" stop-color="#3C60A4"/>
-    </linearGradient>
-    <linearGradient id="shield-side" x1="65" y1="30" x2="89" y2="103" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#789BCE"/><stop offset="1" stop-color="#2D4B85"/>
-    </linearGradient>
-    <radialGradient id="shield-face" cx="0.27" cy="0.24" r="0.78" gradientTransform="translate(0 -.04) scale(1 1.13)">
-      <stop stop-color="#D9EDFF"/><stop offset="0.30" stop-color="#B3D8FB"/><stop offset="0.61" stop-color="#79ADE3"/><stop offset="0.84" stop-color="#457DB8"/><stop offset="1" stop-color="#2B528B"/>
-    </radialGradient>
-    <filter id="shield-shadow" filterUnits="userSpaceOnUse" x="19" y="91" width="92" height="29">
-      <feGaussianBlur stdDeviation="2.5"/>
-    </filter>
-  </defs>
-  <ellipse cx="66" cy="105" rx="29" ry="5" fill="#172A4C" opacity="0.18" filter="url(#shield-shadow)"/>
-  <g transform="matrix(.866 .5 0 1 28 5)">
-    <path d="M7 12 Q20 15 34 3 Q37 1 40 3 Q52 13 62 12 L62 40 Q62 70 39 83 Q36 85 33 83 Q7 70 7 40Z" fill="url(#shield-side)"/>
-    <path d="M0 9 Q16 12 30 0 Q32 -2 35 0 Q48 10 55 9 L55 37 Q55 65 31 79 Q28 81 25 79 Q0 65 0 37Z" fill="url(#shield-rim)"/>
-    <path d="M1.5 11 Q17 13 30 2 Q32 0 34 2 Q46 12 53.5 11 L53.5 37 Q53.5 64 30 77 Q28 79 26 77 Q1.5 64 1.5 37Z" fill="url(#shield-face)"/>
-    <path d="M15 39 L24 48 L40 28" fill="none" stroke="#426CA7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M15 37 L24 46 L40 26" fill="none" stroke="#E6F3FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+<title id="shield-title">Escudo azul espesso com face ampla e marca branca em relevo</title>
+<defs>
+ <linearGradient id="shield-side" x1="69" y1="29" x2="104" y2="92" gradientUnits="userSpaceOnUse"><stop stop-color="#85ACDC"/><stop offset=".45" stop-color="#628CC9"/><stop offset=".82" stop-color="#3F66A6"/><stop offset="1" stop-color="#2E4E86"/></linearGradient>
+ <linearGradient id="shield-bevel" x1="41" y1="18" x2="89" y2="103" gradientUnits="userSpaceOnUse"><stop stop-color="#D0E3F7"/><stop offset=".32" stop-color="#BBD3EF"/><stop offset=".7" stop-color="#91B5E0"/><stop offset="1" stop-color="#668BC0"/></linearGradient>
+ <linearGradient id="shield-face" x1="43" y1="34" x2="86" y2="101" gradientUnits="userSpaceOnUse"><stop stop-color="#ABC6E6"/><stop offset=".6" stop-color="#A3BFDF"/><stop offset="1" stop-color="#96B5DC"/></linearGradient>
+ <linearGradient id="shield-check-side" x1="56" y1="62" x2="62" y2="83" gradientUnits="userSpaceOnUse"><stop stop-color="#D1D0CB"/><stop offset="1" stop-color="#858C95"/></linearGradient>
+ <linearGradient id="shield-check" x1="50" y1="61" x2="66" y2="77" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFDF6"/><stop offset=".5" stop-color="#F3F0E9"/><stop offset="1" stop-color="#CECFCD"/></linearGradient>
+ <filter id="shield-contact" x="34" y="52" width="53" height="42" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="1"/></filter>
+</defs>
+<g id="shield-body">
+ <path d="M28 23L36 19Q50 24 63 20L70 15Q72 14 74 16C86 28 96 31 105 33L104 68C104 90 87 104 66 114Q63 116 60 114L54 109L60 98L88 68L88 42Z" fill="url(#shield-side)"/>
+ <path d="M28 23Q29 19 34 20Q48 24 60 21L62 20C71 29 79 35 94 39L93 70C92 90 79 102 64 112Q62 114 59 112C40 98 29 84 29 63Z" fill="url(#shield-bevel)"/>
+ <path d="M29 26Q45 30 61 24C70 33 79 38 92 41L91 70C90 88 78 101 63 110Q62 112 59 110C41 96 31 83 31 63Z" fill="#B0CCEA"/>
+ <path d="M30 29Q45 33 61 27C70 36 79 40 91 43L90 70C89 87 77 100 63 109Q62 110 60 108C43 95 32 82 32 63Z" fill="url(#shield-face)"/>
+</g>
+<g id="shield-details">
+ <path d="M46 68Q51 79 56 80Q61 81 77 60" fill="none" stroke="#315E98" stroke-width="5" stroke-linecap="round" opacity=".30" filter="url(#shield-contact)"/>
+ <path d="M45 66Q50 77 55 78Q60 79 75 58" fill="none" stroke="url(#shield-check-side)" stroke-width="5.5" stroke-linecap="butt" stroke-linejoin="round"/>
+ <path d="M44 64Q49 75 54 76Q59 77 74 56" fill="none" stroke="url(#shield-check)" stroke-width="5.5" stroke-linecap="butt" stroke-linejoin="round"/>
+</g>
 </svg>

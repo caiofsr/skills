@@ -6,6 +6,10 @@ Create small matte objects whose curvature and construction remain visible at th
 
 Read the supplied reference image as evidence of the user's desired or rejected appearance. A verbal label such as "3D" is less specific than that reference. Keep geometry editable in SVG.
 
+## Reference orientation
+
+When a user supplies a target image, preserve its silhouette, face proportions, viewing direction, thickness, and raised/recessed relationships before matching the color. Compare the SVG render next to that image. A family projection is a default, not permission to rotate a near-frontal reference into a narrow side view. Keep its orthographic construction coherent when adopting the reference's orientation.
+
 ## Construct the object
 
 Identify the body's thickness, the visible side, the rounded transition into the front, and any recessed or raised parts before writing paths. Let these parts follow the same projection.
@@ -14,7 +18,7 @@ Use subject-specific volume:
 
 | Subject | Useful construction |
 | --- | --- |
-| Shield | Rounded perimeter, broad curved face, recessed or raised emblem |
+| Shield | Broad near-frontal face, rounded perimeter, substantial visible side, raised emblem with contact shadow |
 | Key | Rounded bow and shaft, a real hole with an inner wall, distinct teeth |
 | Book | Separate covers and page block, a curved spine, pages that follow the fold |
 | Laptop | Separate lid, inset display, hinge and base; believable thickness for each |
@@ -69,4 +73,4 @@ Inspect the actual render at the intended size and at 128 px. Revise before deli
 
 After each revision, rerender and recheck the failed condition. If the available renderer or target size prevents a convincing result, report the limitation and show the remaining issue. Do not describe an uninspected result as passing this gate.
 
-The shield example demonstrates curved-face shading and a bevel. It is one editable construction, not a universal template or a guarantee of quality for other subjects. Use the user's reference and target size to judge each output.
+The shield example follows a broad, near-frontal solid with visible right-side thickness. Its face uses restrained shading; the perimeter, side wall, and raised check establish its construction. Preserve those proportions when adapting this shield. A dark radial gradient across a narrow face does not reproduce that form. Use the user's reference and target size to judge each output.
