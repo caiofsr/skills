@@ -11,6 +11,8 @@ Inspect these properties at normal display scale:
 | Check | Pass condition | Typical correction |
 | --- | --- | --- |
 | Recognition | Subject readable without its filename | Simplify silhouette or enlarge identifying feature |
+| Placement | Details and their frames fit the usable supporting face with visible clearance | Reposition or resize in face coordinates |
+| Occlusion | Foreground pieces hide the correct parts; intersections have plausible joints | Fix local paint order, clipping, or masks |
 | Projection | Shared edges align; parallel edges stay parallel | Recompute projected vertices |
 | Lighting | Top and sides agree on the light | Adjust face roles and gradient direction |
 | Material | Soft shading preserves clear face boundaries | Reduce highlight contrast or remove blur on faces |
@@ -20,6 +22,14 @@ Inspect these properties at normal display scale:
 | Family | Similar apparent mass, depth, and edge softness | Compare adjacent icons and adjust optical scale |
 
 Zoom in to investigate seams and clipping, then return to intended size before deciding. Judge a set together, not only one icon at a time.
+
+## Assembly check
+
+Inspect the junctions where parts meet at 128 px, then at the intended size. Trace each attached detail's complete perimeter, including its frame, extrusion, sill, and local shadow. Confirm that it stays on its supporting surface and that foreground pieces occlude it correctly.
+
+For a house, check the window against the underside of the roof overhang on the same wall. A frame painted across the roof is a failure. A frame hidden halfway under the eave is also a placement failure unless explicitly intended. Correct the layout as well as the layer order, then render again.
+
+Use the same check for a screen inside a device housing, an emblem on a shield, and pages inside book covers. Judge actual intersections rather than enforcing separation between all parts. Clipping must preserve parts that intentionally project beyond their supporting face.
 
 ## Finish gate
 

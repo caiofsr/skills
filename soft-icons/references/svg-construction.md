@@ -18,6 +18,18 @@ Use explicit fill values or documented theme variables. Avoid scripts, event han
 
 Use local face coordinates for badges and markings, then project them with the face. A front-facing badge pasted over an angled face breaks the projection. Prefer clipping for a detail that must stay within a face, with a clip path matching that face.
 
+## Surface placement and occlusion
+
+Before placing a detail, identify its supporting face, the usable region of that face, and any foreground part that can hide it. Project the detail and its full frame, sill, bevel, and shadow in the supporting face's coordinates. Screen-space bounding boxes alone do not establish containment on an angled wall.
+
+Keep attached details inside the usable region, including their frame and effects. Leave a visible margin from neighboring parts at the intended display size. For a house, place the complete window below the projected underside of the eave, not merely below the roof ridge. Lower or resize it when the complete frame does not fit.
+
+Use paint order to express physical depth. Draw a wall, then its window, then any roof/eave that lies in front of that window. This is a local dependency, not a universal rule that every roof must be last. Split groups when different parts need different overlap orders.
+
+Clip face-bound details to the visible supporting face when containment requires it. A wall clip alone is insufficient when the roof covers part of that wall; also apply the foreground occluder through paint order or a mask. Keep genuinely projecting parts, such as a sill, outside the face clip when appropriate, while still respecting roof occlusion.
+
+Resolve placement before hiding overflow. Moving the roof in front can repair depth ordering but leave half a window hidden. Unless that partial occlusion is intentional, reposition or resize the window so it reads as a complete architectural feature. Preserve purposeful intersections, such as a chimney passing through a roof, with a coherent joint and contact shading.
+
 ## Clean output
 
 Use a few named groups when they help edits. Remove editor metadata and unused definitions. Retain enough coordinate precision to preserve shared edges, typically 2–3 decimals after construction. An optimizer must preserve viewBox, accessible names, ID references, and visible appearance. Compare renders after optimization.
