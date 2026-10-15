@@ -1,0 +1,5 @@
+interface:
+  display_name: "Soft Icons"
+  short_description: "Create consistent soft isometric SVG and React icons"
+policy:
+  allow_implicit_invocation: true
