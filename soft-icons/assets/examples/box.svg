@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="box-title">
-  <title id="box-title">Soft isometric blue box</title>
+  <title id="box-title">Soft isometric kraft cardboard box</title>
   <defs>
-    <linearGradient id="box-top" x1="38" y1="27" x2="91" y2="61" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#B8D9FF"/><stop offset="1" stop-color="#8DBBFA"/>
+    <linearGradient id="box-top" x1="29" y1="15" x2="100" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAD2AC"/><stop offset="1" stop-color="#D3B183"/>
     </linearGradient>
-    <linearGradient id="box-left" x1="35" y1="49" x2="64" y2="101" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8CB7F0"/><stop offset="1" stop-color="#78A7EA"/>
+    <linearGradient id="box-left" x1="25" y1="45" x2="64" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C9A473"/><stop offset="1" stop-color="#B08655"/>
     </linearGradient>
-    <linearGradient id="box-right" x1="67" y1="63" x2="99" y2="91" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#6C96D9"/><stop offset="1" stop-color="#527BC5"/>
+    <linearGradient id="box-right" x1="68" y1="64" x2="111" y2="101" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9A7040"/><stop offset="1" stop-color="#79552C"/>
     </linearGradient>
-    <filter id="box-shadow" filterUnits="userSpaceOnUse" x="17" y="81" width="100" height="37" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="2.5"/>
+    <filter id="box-shadow" filterUnits="userSpaceOnUse" x="0" y="80" width="128" height="48" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3"/>
     </filter>
   </defs>
-  <ellipse cx="68" cy="100" rx="37" ry="8" fill="#263653" opacity="0.14" filter="url(#box-shadow)"/>
-  <path d="M26 47L64 69V103L28 82Q26 81 26 78Z" fill="url(#box-left)"/>
-  <path d="M64 69L102 47V78Q102 81 100 82L64 103Z" fill="url(#box-right)"/>
-  <path d="M28 46L62 26Q64 25 66 26L100 46Q102 47 100 48L66 68Q64 69 62 68L28 48Q26 47 28 46Z" fill="url(#box-top)"/>
+  <ellipse cx="69" cy="112" rx="46" ry="8" fill="#3E2C1E" opacity="0.14" filter="url(#box-shadow)"/>
+  <path d="M13.3 42.3L64 71.7V117L16 89Q13.3 87.7 13.3 83.7Z" fill="url(#box-left)"/>
+  <path d="M64 71.7L114.7 42.3V83.7Q114.7 87.7 112 89L64 117Z" fill="url(#box-right)"/>
+  <path d="M16 41L61.3 14.3Q64 13 66.7 14.3L112 41Q114.7 42.3 112 43.7L66.7 70.3Q64 71.7 61.3 70.3L16 43.7Q13.3 42.3 16 41Z" fill="url(#box-top)"/>
 </svg>

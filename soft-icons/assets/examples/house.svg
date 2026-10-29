@@ -1,45 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="house-title">
-<title id="house-title">Casa isométrica com telhado azul e paredes de cerâmica clara</title>
+<title id="house-title">Casa isométrica com telhado de terracota e paredes de cerâmica clara</title>
 <defs>
- <linearGradient id="house-front" x1="24" y1="54" x2="66" y2="98" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFEF5"/><stop offset=".55" stop-color="#F2E6CF"/><stop offset=".86" stop-color="#D7C4A4"/><stop offset="1" stop-color="#B8A186"/></linearGradient>
- <linearGradient id="house-side" x1="67" y1="73" x2="103" y2="91" gradientUnits="userSpaceOnUse"><stop stop-color="#D7C6AA"/><stop offset=".5" stop-color="#CCB795"/><stop offset="1" stop-color="#AC9275"/></linearGradient>
- <linearGradient id="house-roof" x1="62" y1="30" x2="86" y2="70" gradientUnits="userSpaceOnUse"><stop stop-color="#B5DFFF"/><stop offset=".22" stop-color="#83BFF3"/><stop offset=".65" stop-color="#4D90CF"/><stop offset=".9" stop-color="#2B66A5"/><stop offset="1" stop-color="#235183"/></linearGradient>
- <linearGradient id="house-roof-left" x1="29" y1="38" x2="43" y2="51" gradientUnits="userSpaceOnUse"><stop stop-color="#D5EEFF"/><stop offset=".5" stop-color="#9ECEF5"/><stop offset="1" stop-color="#609ACD"/></linearGradient>
- <linearGradient id="house-edge" x1="45" y1="45" x2="55" y2="75" gradientUnits="userSpaceOnUse"><stop stop-color="#77B1DF"/><stop offset="1" stop-color="#234E7E"/></linearGradient>
- <linearGradient id="house-door" x1="40" y1="73" x2="58" y2="101" gradientUnits="userSpaceOnUse"><stop stop-color="#48799A"/><stop offset=".5" stop-color="#315D7C"/><stop offset="1" stop-color="#193C57"/></linearGradient>
- <linearGradient id="house-glass" x1="77" y1="68" x2="89" y2="83" gradientUnits="userSpaceOnUse"><stop stop-color="#264966"/><stop offset=".48" stop-color="#548EAF"/><stop offset="1" stop-color="#B2DBE2"/></linearGradient>
- <linearGradient id="house-step" x1="44" y1="102" x2="61" y2="115" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF9E9"/><stop offset="1" stop-color="#C5B291"/></linearGradient>
- <filter id="house-shadow" x="9" y="87" width="111" height="39" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="3"/></filter>
- <filter id="house-contact" x="20" y="84" width="89" height="33" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="1.2"/></filter>
+ <linearGradient id="house-front" x1="24" y1="57.8" x2="66" y2="101.8" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFEF5"/><stop offset=".55" stop-color="#F2E6CF"/><stop offset=".86" stop-color="#D7C4A4"/><stop offset="1" stop-color="#B8A186"/></linearGradient>
+ <linearGradient id="house-side" x1="67" y1="76.8" x2="103" y2="94.8" gradientUnits="userSpaceOnUse"><stop stop-color="#D7C6AA"/><stop offset=".5" stop-color="#CCB795"/><stop offset="1" stop-color="#AC9275"/></linearGradient>
+ <linearGradient id="house-roof" x1="62" y1="33.8" x2="86" y2="73.8" gradientUnits="userSpaceOnUse"><stop stop-color="#F6B48F"/><stop offset=".22" stop-color="#E89168"/><stop offset=".65" stop-color="#CE6C45"/><stop offset=".9" stop-color="#B0512F"/><stop offset="1" stop-color="#963F24"/></linearGradient>
+ <linearGradient id="house-roof-left" x1="29" y1="41.8" x2="43" y2="54.8" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD2B4"/><stop offset=".5" stop-color="#F2A47C"/><stop offset="1" stop-color="#D97B52"/></linearGradient>
+ <linearGradient id="house-edge" x1="45" y1="48.8" x2="55" y2="78.8" gradientUnits="userSpaceOnUse"><stop stop-color="#C97A55"/><stop offset="1" stop-color="#8E3A22"/></linearGradient>
+ <linearGradient id="house-door" x1="40" y1="76.8" x2="58" y2="104.8" gradientUnits="userSpaceOnUse"><stop stop-color="#8A5A3A"/><stop offset=".5" stop-color="#6B432A"/><stop offset="1" stop-color="#4A2C1A"/></linearGradient>
+ <linearGradient id="house-glass" x1="77" y1="71.8" x2="89" y2="86.8" gradientUnits="userSpaceOnUse"><stop stop-color="#4C5A50"/><stop offset=".48" stop-color="#7D8F82"/><stop offset="1" stop-color="#D3DDD2"/></linearGradient>
+ <linearGradient id="house-step" x1="44" y1="105.8" x2="61" y2="118.8" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF9E9"/><stop offset="1" stop-color="#C5B291"/></linearGradient>
+ <filter id="house-shadow" x="0" y="80" width="128" height="48" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="3"/></filter>
+ <filter id="house-contact" x="0" y="80" width="128" height="48" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="1.2"/></filter>
 </defs>
 <g id="house-ground">
- <ellipse cx="66" cy="108" rx="39" ry="7" fill="#1B2C49" opacity=".18" filter="url(#house-shadow)"/>
- <path d="M26 89L63 110L100 88L64 99Z" fill="#342A25" opacity=".18" filter="url(#house-contact)"/>
+ <ellipse cx="66" cy="111.8" rx="39" ry="7" fill="#3E2C1E" opacity=".18" filter="url(#house-shadow)"/>
+ <path d="M26 92.8L63 113.8L100 91.8L64 102.8Z" fill="#3E2C1E" opacity=".18" filter="url(#house-contact)"/>
 </g>
 <g id="house-body">
- <path d="M63 73L100 52V86Q100 90 97 92L67 109Q64 111 61 109V78Z" fill="url(#house-side)"/>
- <path d="M26 60L43 40Q45 38 47 41L65 72V106Q65 112 60 109L29 91Q25 89 25 84V64Q25 61 26 60Z" fill="url(#house-front)"/>
- <path d="M26 63L44 45L63 77L63 83L44 52L26 69Z" fill="#725D48" opacity=".15"/>
- <path d="M65 78L100 58V64L65 84Z" fill="#6F533D" opacity=".22"/>
+ <path d="M63 76.8L100 55.8V89.8Q100 93.8 97 95.8L67 112.8Q64 114.8 61 112.8V81.8Z" fill="url(#house-side)"/>
+ <path d="M26 63.8L43 43.8Q45 41.8 47 44.8L65 75.8V109.8Q65 115.8 60 112.8L29 94.8Q25 92.8 25 87.8V67.8Q25 64.8 26 63.8Z" fill="url(#house-front)"/>
+ <path d="M26 66.8L44 48.8L63 80.8L63 86.8L44 55.8L26 72.8Z" fill="#725D48" opacity=".15"/>
+ <path d="M65 81.8L100 61.8V67.8L65 87.8Z" fill="#6F533D" opacity=".22"/>
 </g>
 <g id="house-details">
- <path d="M39 76Q39 69 44 72L54 78Q57 80 57 85V106L39 96Z" fill="#A78D71"/>
- <path d="M41 78Q41 73 45 75L52 79Q54 80 54 84V103L41 95Z" fill="url(#house-door)"/>
- <ellipse cx="50.8" cy="91" rx="1.05" ry="1.5" fill="#EBCB8C"/>
- <path d="M76 70L88 63Q92 61 92 65V79Q92 82 89 84L77 91Q74 92 74 88V75Q74 72 76 70Z" fill="#A18A6E"/>
- <path d="M77 72L89 65V79L77 86Z" fill="url(#house-glass)"/>
- <path d="M82 69L84 68V82L82 83Z" fill="#E4D5B9"/>
- <path d="M77 78L89 71V73L77 80Z" fill="#E4D5B9"/>
- <path d="M74 88L89 79L94 82L78 91Q76 92 74 90Z" fill="#F4E5C9"/>
- <path d="M78 91L94 82V84L78 93Z" fill="#B89E7A"/>
- <path d="M34 99L40 95L59 106L53 110Z" fill="url(#house-step)"/>
- <path d="M34 99L53 110V114L34 103Z" fill="#B8A184"/>
- <path d="M53 110L59 106V110L53 114Z" fill="#927D67"/>
+ <path d="M39 79.8Q39 72.8 44 75.8L54 81.8Q57 83.8 57 88.8V109.8L39 99.8Z" fill="#A78D71"/>
+ <path d="M41 81.8Q41 76.8 45 78.8L52 82.8Q54 83.8 54 87.8V106.8L41 98.8Z" fill="url(#house-door)"/>
+ <ellipse cx="50.8" cy="94.8" rx="1.1" ry="1.5" fill="#EBCB8C"/>
+ <path d="M76 73.8L88 66.8Q92 64.8 92 68.8V82.8Q92 85.8 89 87.8L77 94.8Q74 95.8 74 91.8V78.8Q74 75.8 76 73.8Z" fill="#A18A6E"/>
+ <path d="M77 75.8L89 68.8V82.8L77 89.8Z" fill="url(#house-glass)"/>
+ <path d="M82 72.8L84 71.8V85.8L82 86.8Z" fill="#E4D5B9"/>
+ <path d="M77 81.8L89 74.8V76.8L77 83.8Z" fill="#E4D5B9"/>
+ <path d="M74 91.8L89 82.8L94 85.8L78 94.8Q76 95.8 74 93.8Z" fill="#F4E5C9"/>
+ <path d="M78 94.8L94 85.8V87.8L78 96.8Z" fill="#B89E7A"/>
+ <path d="M34 102.8L40 98.8L59 109.8L53 113.8Z" fill="url(#house-step)"/>
+ <path d="M34 102.8L53 113.8V117.8L34 106.8Z" fill="#B8A184"/>
+ <path d="M53 113.8L59 109.8V113.8L53 117.8Z" fill="#927D67"/>
 </g>
 <g id="house-roof-body">
- <path d="M18 58L41 30Q44 27 47 31L73 74L108 54V60Q108 62 105 64L73 83Q70 85 67 82L43 43L22 66Q19 68 18 64Z" fill="url(#house-edge)"/>
- <path d="M20 56L41 29Q44 25 48 28L82 9Q85 8 83 12L46 35L24 62Q21 65 18 62Q17 60 20 56Z" fill="url(#house-roof-left)"/>
- <path d="M44 28Q45 26 48 28L81 9Q84 7 86 11L108 51Q111 56 106 59L74 78Q70 80 68 75L46 37Q42 31 44 28Z" fill="url(#house-roof)"/>
- <path d="M48 29L82 10Q84 9 85 12" fill="none" stroke="#C4E7FF" stroke-width="1.5" stroke-linecap="round" opacity=".65"/>
+ <path d="M18 61.8L41 33.8Q44 30.8 47 34.8L73 77.8L108 57.8V63.8Q108 65.8 105 67.8L73 86.8Q70 88.8 67 85.8L43 46.8L22 69.8Q19 71.8 18 67.8Z" fill="url(#house-edge)"/>
+ <path d="M20 59.8L41 32.8Q44 28.8 48 31.8L82 12.8Q85 11.8 83 15.8L46 38.8L24 65.8Q21 68.8 18 65.8Q17 63.8 20 59.8Z" fill="url(#house-roof-left)"/>
+ <path d="M44 31.8Q45 29.8 48 31.8L81 12.8Q84 10.8 86 14.8L108 54.8Q111 59.8 106 62.8L74 81.8Q70 83.8 68 78.8L46 40.8Q42 34.8 44 31.8Z" fill="url(#house-roof)"/>
+ <path d="M48 32.8L82 13.8Q84 12.8 85 15.8" fill="none" stroke="#FFD9C2" stroke-width="1.5" stroke-linecap="round" opacity=".65"/>
 </g>
 </svg>

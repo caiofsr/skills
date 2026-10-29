@@ -27,6 +27,6 @@ For circles on a face, draw them in the face's local plane and apply the same pr
 
 ## Composition
 
-Choose a recognizable silhouette before adding detail. Start around 72–92 units wide, then fit height and shadow inside the canvas. Center the visible mass optically, including protrusions. Objects of equal bounding-box size may need different scale to look balanced.
+Choose a recognizable silhouette before adding detail. Start around 88–104 units wide, then fit height and shadow inside the canvas. Center the visible mass optically, including protrusions. Objects of equal bounding-box size may need different scale to look balanced.
 
 At 24–32 px, simplify labels, grooves, and tiny secondary objects. When a defining feature would be less than one rendered pixel, enlarge it or omit it. Keep the original geometry for larger illustrated use.

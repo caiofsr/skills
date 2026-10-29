@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="parcel-title">
-<title id="parcel-title">Rounded parcel with a cream packing band</title>
+<title id="parcel-title">Kraft parcel with a cream packing band</title>
 <defs>
-<linearGradient id="parcel-top" x1="39" y1="24" x2="90" y2="63" gradientUnits="userSpaceOnUse"><stop stop-color="#D1E9FF"/><stop offset=".5" stop-color="#9FCAF4"/><stop offset="1" stop-color="#719BD0"/></linearGradient>
-<linearGradient id="parcel-left" x1="25" y1="49" x2="67" y2="91" gradientUnits="userSpaceOnUse"><stop stop-color="#ACD3F6"/><stop offset=".5" stop-color="#81AFE1"/><stop offset=".85" stop-color="#5885BB"/><stop offset="1" stop-color="#466A9B"/></linearGradient>
-<linearGradient id="parcel-right" x1="68" y1="61" x2="104" y2="93" gradientUnits="userSpaceOnUse"><stop stop-color="#729FD4"/><stop offset=".6" stop-color="#4E7AB1"/><stop offset="1" stop-color="#345685"/></linearGradient>
-<linearGradient id="parcel-band" x1="55" y1="45" x2="89" y2="86" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF0D1"/><stop offset="1" stop-color="#C8AA7C"/></linearGradient>
-<filter id="parcel-shadow" x="12" y="88" width="104" height="33" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="2.8"/></filter>
+<linearGradient id="parcel-top" x1="32.8" y1="15.2" x2="96.5" y2="62" gradientUnits="userSpaceOnUse"><stop stop-color="#E7CDA4"/><stop offset=".5" stop-color="#D2AE7C"/><stop offset="1" stop-color="#B08350"/></linearGradient>
+<linearGradient id="parcel-left" x1="15.2" y1="45.2" x2="67.8" y2="95.6" gradientUnits="userSpaceOnUse"><stop stop-color="#CEAA78"/><stop offset=".5" stop-color="#B98C58"/><stop offset=".85" stop-color="#966C3E"/><stop offset="1" stop-color="#80592E"/></linearGradient>
+<linearGradient id="parcel-right" x1="69" y1="59.6" x2="114" y2="98" gradientUnits="userSpaceOnUse"><stop stop-color="#A27643"/><stop offset=".6" stop-color="#855D32"/><stop offset="1" stop-color="#684722"/></linearGradient>
+<linearGradient id="parcel-band" x1="52.8" y1="40.4" x2="95.2" y2="89.6" gradientUnits="userSpaceOnUse"><stop stop-color="#FCF3DE"/><stop offset="1" stop-color="#E2CCA1"/></linearGradient>
+<filter id="parcel-shadow" x="0" y="80" width="128" height="48" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="2.8"/></filter>
 </defs>
-<g id="parcel-ground"><ellipse cx="66" cy="104" rx="35" ry="6" opacity=".17" fill="#253A59" filter="url(#parcel-shadow)"/></g>
+<g id="parcel-ground"><ellipse cx="66.5" cy="112" rx="44" ry="7" opacity=".17" fill="#3E2C1E" filter="url(#parcel-shadow)"/></g>
 <g id="parcel-body">
-<path d="M24 46L65 68V104Q64 109 60 106L28 88Q24 86 24 81Z" fill="url(#parcel-left)"/>
-<path d="M64 68L104 46V81Q104 86 100 88L68 106Q64 109 64 104Z" fill="url(#parcel-right)"/>
-<path d="M27 44L60 25Q64 23 68 25L101 44Q105 47 101 50L68 69Q64 71 60 69L27 50Q23 47 27 44Z" fill="url(#parcel-top)"/>
+<path d="M14 41.6L65.2 68V111.2Q64 117.2 59 113.6L19 92Q14 89.6 14 83.6Z" fill="url(#parcel-left)"/>
+<path d="M64 68L114 41.6V83.6Q114 89.6 109 92L69 113.6Q64 117.2 64 111.2Z" fill="url(#parcel-right)"/>
+<path d="M17.8 39.2L59 16.4Q64 14 69 16.4L110.2 39.2Q115.2 42.8 110.2 46.4L69 69.2Q64 71.6 59 69.2L17.8 46.4Q12.8 42.8 17.8 39.2Z" fill="url(#parcel-top)"/>
 </g>
 <g id="parcel-details">
-<path d="M42 35L51 30L87 51L78 56Z" fill="#F8E6C3"/>
-<path d="M78 56L87 51V95L78 100Z" fill="url(#parcel-band)"/>
-<path d="M33 64L48 73Q50 74 50 77V86Q50 88 48 87L33 78Q31 77 31 74V66Q31 63 33 64Z" fill="#DEEAF3"/>
-<path d="M35 70L45 76M35 74L42 78" stroke="#7992AE" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M36.5 28.4L47.8 22.4L92.8 47.6L81.5 53.6Z" fill="#F8EED8"/>
+<path d="M81.5 53.6L92.8 47.6V100.4L81.5 106.4Z" fill="url(#parcel-band)"/>
+<path d="M25.2 63.2L44 74Q46.5 75.2 46.5 78.8V89.6Q46.5 92 44 90.8L25.2 80Q22.8 78.8 22.8 75.2V65.6Q22.8 62 25.2 63.2Z" fill="#F8F5EC"/>
+<path d="M27.8 70.4L40.2 77.6M27.8 75.2L36.5 80" stroke="#8C8172" stroke-width="1.5" stroke-linecap="round"/>
 </g>
 </svg>

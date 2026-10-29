@@ -14,7 +14,7 @@ Anchor the nearest edge to the object's base. An oversized gap makes a resting o
 
 ## SVG filter bounds
 
-Explicit bounds prevent clipped blur. Prefer `filterUnits="userSpaceOnUse"` for a known canvas and size the region around the shadow geometry, not just the object. Allow roughly three blur standard deviations beyond its visible shape, plus offsets. The filter region and the root viewBox both need room.
+Explicit bounds prevent clipped blur. Prefer `filterUnits="userSpaceOnUse"` for a known canvas and size the region around the shadow geometry, not just the object. Allow roughly two blur standard deviations beyond its visible shape, plus offsets, at the shadow opacities used here. The third standard deviation falls below 1/255 and reads as transparent, so the viewBox may trim it without a visible seam. The simplest safe region is the whole canvas; a tighter region must never cut the blur while it is still visible.
 
 Use one ground blur for the example family. Add `feDropShadow` only when a distinct overlapping object needs separation. Default filter boxes may clip. Stacked drop shadows make every part look detached.
 

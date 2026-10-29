@@ -33,11 +33,13 @@ These are starting values, not overrides for an existing design system.
 | Light | Upper left of the screen |
 | Material | Sculpted matte plastic with broad curvature shading on rounded bodies |
 | Edges | Rounded silhouette and shaded bevels, with highlights limited to light-facing edges |
-| Framing | About 12 units of padding including effects |
+| Framing | About 12 units to the silhouette; the ground shadow uses the margin |
 | Complexity | One primary object and only identifying details |
 | Palette | Real-world colors for each object and material; a user-requested palette takes precedence |
 
 For this style, visual acceptance also requires the [volume and finish gate](references/volume-and-finish.md#acceptance-gate). A valid SVG or an angled silhouette alone is insufficient.
+
+Measure framing to the silhouette, not to the shadow's blur tail. The shadow may use the margin as long as its visible edge stays on canvas; see [filter bounds](references/lighting-and-shadows.md#svg-filter-bounds).
 
 The family must share projection, light direction, corner treatment, and optical scale. Keep these decisions stable across the requested set. Use a simplified companion at small sizes when detail no longer survives rendering.
 

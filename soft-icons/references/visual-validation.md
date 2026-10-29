@@ -18,7 +18,7 @@ Inspect these properties at normal display scale:
 | Color fidelity | Each material retains its real-world color, or follows the user's explicit palette request | Restore subject-specific base colors and remove unintended blue-gray tint from shading |
 | Material | Soft shading preserves clear face boundaries | Reduce highlight contrast or remove blur on faces |
 | Shadow | Contact and direction match object placement | Move footprint and expand effect bounds |
-| Framing | Geometry and effects remain inside canvas | Reposition or scale the complete composition |
+| Framing | Silhouette inset about 12 units; the visible shadow stays inside the canvas | Reposition or scale the complete composition |
 | Small sizes | Details remain legible without muddy clusters | Remove details or make a dedicated small variant |
 | Family | Similar apparent mass, depth, and edge softness | Compare adjacent icons and adjust optical scale |
 
