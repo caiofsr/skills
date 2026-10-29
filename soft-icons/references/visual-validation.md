@@ -15,6 +15,7 @@ Inspect these properties at normal display scale:
 | Occlusion | Foreground pieces hide the correct parts; intersections have plausible joints | Fix local paint order, clipping, or masks |
 | Projection | Shared edges align; parallel edges stay parallel | Recompute projected vertices |
 | Lighting | Top and sides agree on the light | Adjust face roles and gradient direction |
+| Color fidelity | Each material retains its real-world color, or follows the user's explicit palette request | Restore subject-specific base colors and remove unintended blue-gray tint from shading |
 | Material | Soft shading preserves clear face boundaries | Reduce highlight contrast or remove blur on faces |
 | Shadow | Contact and direction match object placement | Move footprint and expand effect bounds |
 | Framing | Geometry and effects remain inside canvas | Reposition or scale the complete composition |

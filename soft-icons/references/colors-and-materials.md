@@ -2,19 +2,15 @@
 
 ## Establish a material palette
 
-Use project tokens when available. Otherwise this blue family is a starting point:
+Choose colors from the depicted object and its materials. An explicit user request for a palette, monochrome treatment, brand colors, or tonal range takes precedence. Apply that request within its stated scope. A reference supplied as the desired appearance also guides the object's colors.
 
-| Role | Example |
-| --- | --- |
-| Top light | `#B8D9FF` |
-| Top base | `#8DBBFA` |
-| Left face | `#78A7EA` |
-| Right face | `#527BC5` |
-| Neutral light | `#EDF2F8` |
-| Neutral shade | `#BECBDD` |
-| Shadow | `#263653`, low opacity |
+Without that direction, use familiar real-world colors. Cardboard is kraft brown, wood uses its natural brown tones, leaves are green, and paper is white or cream. For subjects with many plausible colors, choose a recognizable real-world variant. For abstract subjects, use familiar semantic colors or a restrained palette suited to the concept.
 
-These values are material roles, not semantic status colors. Keep errors, success, and warnings aligned with the application. Use shape or labels as well as color when an icon communicates state.
+Assign each material its own base, light, and shade colors. Derive highlights and shadows from that base so the material keeps its recognizable hue. Use neutral gray where the actual material calls for it, such as steel; keep warm materials warm under the default lighting. A set shares geometry, lighting, and finish while retaining each subject's colors.
+
+Project tokens may implement these choices when they match the material. Adopting a site's brand palette for the whole illustration requires the user's explicit direction. Construction examples demonstrate geometry and shading; their colors are not defaults for unrelated objects.
+
+Keep errors, success, and warnings aligned with the application when an icon communicates state. Use shape or labels as well as color.
 
 ## Matte appearance
 

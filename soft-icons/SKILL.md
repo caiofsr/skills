@@ -16,8 +16,8 @@ Follow every applicable requirement in this file and the references reached by t
 
 ## Workflow
 
-1. Inspect the destination's icons, tokens, framework, and expected display sizes. Identify the subject and its distinguishing silhouette. When a target image is supplied, read its silhouette, orientation, proportions, and depth relationships before selecting the projection. Reuse an established palette and projection where compatible with that target. When none exists, use the defaults below. Ask only when an unresolved choice materially changes the requested result.
-2. Before drawing new geometry, read [geometry](references/geometry.md). For a new visual family, also read [colors and materials](references/colors-and-materials.md) and [lighting and shadows](references/lighting-and-shadows.md). For edits, load these when changing the corresponding property.
+1. Inspect the destination's icons, tokens, framework, and expected display sizes. Identify the subject and its distinguishing silhouette. When a target image is supplied, read its silhouette, orientation, proportions, and depth relationships before selecting the projection. Reuse an established projection where compatible with that target. Use the subject's real-world colors unless the user explicitly requests a palette or tonal range. Existing project tokens and example palettes do not imply that request. When no projection is established, use the defaults below. Ask only when an unresolved choice materially changes the requested result.
+2. Before drawing new geometry, read [geometry](references/geometry.md). For every new icon or color edit, read [colors and materials](references/colors-and-materials.md). For a new visual family or lighting edit, also read [lighting and shadows](references/lighting-and-shadows.md).
 3. Read [volume and finish](references/volume-and-finish.md) before drawing or reviewing an illustrated icon. For a set, complete and inspect one representative icon before propagating its construction. Establish the main mass as an unadorned shaded body first. Run the grayscale body study described in the finish reference before adding rims, symbols, screens, or cast shadows. Then add visible parts and identifying details. Read [SVG construction](references/svg-construction.md) before writing SVG. Read [construction examples](references/examples.md), then inspect the closest example source and its render. A geometry blockout is not a finished reference.
 4. For React output, read [React and TypeScript](references/react-typescript.md). Deliver the standalone SVG alongside any component. Reuse the project's framework rather than introducing a dependency for an icon.
 5. Read [visual validation](references/visual-validation.md), render the actual output, inspect it at intended sizes and backgrounds, and fix observed defects. Run its assembly check on detail placement, clearances, and foreground occlusion as well as its finish gate. Report any unavailable check explicitly. Source inspection alone does not establish visual quality.
@@ -35,7 +35,7 @@ These are starting values, not overrides for an existing design system.
 | Edges | Rounded silhouette and shaded bevels, with highlights limited to light-facing edges |
 | Framing | About 12 units of padding including effects |
 | Complexity | One primary object and only identifying details |
-| Palette | One accent material plus neutral or supporting materials |
+| Palette | Real-world colors for each object and material; a user-requested palette takes precedence |
 
 For this style, visual acceptance also requires the [volume and finish gate](references/volume-and-finish.md#acceptance-gate). A valid SVG or an angled silhouette alone is insufficient.
 
